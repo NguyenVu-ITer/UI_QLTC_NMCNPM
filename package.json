@@ -1,0 +1,29 @@
+{
+  "name": "ui_app",
+  "version": "1.0.0",
+  "description": "Nhập môn công nghệ phần mềm - Quản lí tài chính cá nhân",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --inspect index.js",
+    "css-convert": "node-sass -w style -o public/css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NguyenVu-ITer/UI_QLTC_NMCNPM.git"
+  },
+  "author": "NguyenVu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NguyenVu-ITer/UI_QLTC_NMCNPM/issues"
+  },
+  "homepage": "https://github.com/NguyenVu-ITer/UI_QLTC_NMCNPM#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "express-handlebars": "^6.0.5"
+  },
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.16"
+  }
+}
